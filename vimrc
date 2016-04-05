@@ -67,6 +67,8 @@ if has("autocmd")
 
   " Set filetypes
   autocmd BufRead,BufNewFile *.md set filetype=markdown
+  autocmd BufRead,BufNewfile *.pp set filetype=puppet
+  autocmd BufRead,BufNewfile *_spec.rb nmap <F8 :!rspec --color %<CR>
 endif
 
 " Split window settings
@@ -92,6 +94,8 @@ endif
 set cursorline
 set mouse=a
 call togglebg#map("<F5>")
+"set default comment color to cyan
+highlight comment ctermfg=cyan
 
 " Swap files
 set noswapfile
@@ -158,3 +162,6 @@ endfunction
 
 " Allow y & p commands to access system clipboard
 set clipboard=unnamed
+" turn off auto adding comments on next line
+" so you can cut and paste reliably
+set fo=tcq
