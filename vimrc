@@ -10,6 +10,7 @@ Plugin 'gmarik/Vundle.vim'  " let Vundle manage Vundle, required
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
+
 Plugin 'ntpeters/vim-better-whitespace.git'
 Plugin 'kien/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter'
@@ -28,6 +29,7 @@ Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'janko-m/vim-test'
+Plugin 'rodjek/vim-puppet.git'
 
 call vundle#end()            " required
 
