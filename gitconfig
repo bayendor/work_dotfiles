@@ -1,14 +1,14 @@
 [user]
-	name = David Bayendor
-	email = dbayendor@gmail.com
+  name = David Bayendor
+  email = dbayendor@gmail.com
   username = bayendor
-	initials = DB
+  initials = DB
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [push]
-	default = current
+  default = current
 [alias]
-	co = checkout
+  co = checkout
   st = status
   sub = submodule foreach git pull origin master
   cm = commit -m
@@ -17,16 +17,16 @@
   authors = ! git log --format=\"%ae %an\" | sort -u | column -t
   mt = mergetool -t opendiff
 [core]
-	editor = vim
-	excludesfile = /Users/David/.gitignore_global
+  editor = vim
+  excludesfile = /Users/David/.gitignore_global
 [color]
-	ui = true
-	diff = auto
-	status = auto
-	branch = auto
+  ui = true
+  diff = auto
+  status = auto
+  branch = auto
 [diff]
-	tool = atom
+  tool = atom
 [merge]
-	tool = atom
+  tool = atom
 [git-tmbundle]
   gitx-path = /Applications/GitX.app
