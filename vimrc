@@ -96,8 +96,6 @@ endif
 set cursorline
 set mouse=a
 call togglebg#map("<F5>")
-"set default comment color to cyan
-highlight comment ctermfg=cyan
 
 " Swap files
 set noswapfile
@@ -164,6 +162,7 @@ endfunction
 
 " Allow y & p commands to access system clipboard
 set clipboard=unnamed
+
 " turn off auto adding comments on next line
 " so you can cut and paste reliably
 set fo=tcq
