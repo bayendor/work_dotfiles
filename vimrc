@@ -30,6 +30,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'janko-m/vim-test'
 Plugin 'rodjek/vim-puppet.git'
+Plugin 'hashivim/vim-hashicorp-tools.git'
 
 call vundle#end()            " required
 
@@ -87,7 +88,7 @@ map <C-l> <C-w>l
 set t_Co=256
 set number
 if has('gui_running')
-  set guifont=Monaco:h13
+  set guifont=Menlo:h13
   silent! colorscheme solarized
   set background=light
 else
