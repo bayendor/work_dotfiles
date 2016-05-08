@@ -81,3 +81,5 @@ alias ws='cd ~/workspace'
 alias tma='cd ~/workspace/tma'
 alias pv='cd ~/workspace/dev/peertopeer/practical_vim'
 alias exio='cd ~/workspace/dev/exercism/ruby'
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
